@@ -1,0 +1,47 @@
+/*
+  Google color palette 
+  blue: #4285F4
+  green: #0F9D58
+  yellow: #F4B400
+  red: #DB4437
+*/
+
+body {
+  font-family: lato;
+}
+
+.black-prenav {
+  height: 35px;
+  background: #F4B400;
+  gap: 20px;
+  padding-right: 105px;
+}
+
+.black-prenav i {
+  color: #545454;
+}
+
+.black-prenav p {
+  color: #545454;
+  margin: 0;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 760px) {
+  .black-prenav {
+    height: 0;
+    padding: 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 760px) {
+  .nav {
+    position: absolute;
+    right: 100px;
+  }
+
+  .logo {
+    margin-left: 150px;
+  }
+}
