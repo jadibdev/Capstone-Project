@@ -10,6 +10,11 @@ body {
   font-family: lato;
 }
 
+.logo {
+  font-size: 22px;
+  color: #DB4437;
+}
+
 .black-prenav {
   height: 35px;
   background: #F4B400;
