@@ -2,14 +2,18 @@
 <html lang="en">
 
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Google I/O</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link href="/css/main.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <title>Google I/O</title>
 </head>
 
 <body>
@@ -21,39 +25,60 @@
     <p>My I/O</p>
     <p>Log Out</p>
   </div>
-  <!-- burger menu or nav depending on viewport -->
-  <nav class="navbar navbar-expand-md bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand logo" href="#">Google <span class="io">I/O</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon collapsed"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav nav">
-          <a class="nav-link active" aria-current="page" href="#">About</a>
-          <a class="nav-link" href="#">Program</a>
-          <a class="nav-link" href="#">Speakers</a>
-          <!-- <a class="nav-link disabled">Disabled</a> -->
+  
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">Google <span class="io">I/O</span></a>
+        <button class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" >Program</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Speakers</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
+
   <!-- hero section -->
-
+  
   <!-- main program section -->
-
+  
   <!-- Featured speakers section -->
-
+  
   <!-- partner section -->
-
+  
   <!-- footer section -->
 
-  
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
 </body>
 
 </html>
