@@ -4,6 +4,9 @@
   green: #0F9D58
   yellow: #F4B400
   red: #DB4437
+
+  raison black: #272932
+  onyx: #3C3F46
 */
 
 /* beginning of X butoon css */ 
@@ -89,7 +92,7 @@
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
-  background: linear-gradient(263deg, rgba(15, 157, 88, 1) 0%, rgba(244, 180, 0, 1) 100%);
+  background: #272a31;
 }
 
 /* end of X butoon css */
@@ -105,14 +108,16 @@ body {
   color: #DB4437;
 }
 
-
+.black-prenav {
+  background: #3E3E3E;
+}
 
 .black-prenav i {
-  color: #545454;
+  color: #F1F1F1;
 }
 
 .black-prenav p {
-  color: #545454;
+  color: #F1F1F1;
   margin: 0;
 }
 
@@ -122,39 +127,53 @@ body {
 
 .nav-section {
   padding: 0;
+  background: #F1F1F1;
 }
 
 #navbarNav {
   position: absolute;
   top: 50px;
-  background: rgb(255, 255, 255);
+  background: #F1F1F1;
   width: 100%;
   left: 0px;
-  height: 100vh;
+  
 }
 
 .nav li {
   padding-left: 8px;
 }
 
-.hero-section {
-  z-index: -1 !important;
-}
 
 .hero-section {
-  
   /* background:rgba(15, 157, 88, 1); */
   padding-top: 30px;
   padding-left: 20px;
+  background: #F1F1F1;
+  padding-bottom: 20px;
+}
+
+.hero-section div {
+  border: 3px solid white;
+  margin-bottom: 20px;
 }
 
 .hero-section h1 {
   font-size: 42px;
-  color: #4285F4;
+  color: #ec5242;
 }
 
 .hero-section h6 {
   font-size: 16px;
+  color: #ec5242;
+}
+
+.hero-section p {
+  padding: 5px;
+}
+
+.hero-section h2 {
+  color: #272a31;
+  font-weight: bold;
 }
 
 #date {
@@ -163,19 +182,132 @@ body {
 }
 
 .main-program-container {
-  background:#4285F4;
+  background: #272932;
   color: #fff;
 }
 
-.programs {
-  background:rgba(244, 180, 0, 1);
-  gap: 15px;
-  padding: 5px;
+.main-program-container button {
+  background: #ec5242;
+  color: #F1F1F1;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.speakers-container {
-  background:rgba(244, 180, 0, 1);
+.programs {
+  background: #3C3F46;
+  gap: 10px;
+  align-items: center;
 }
+
+.programs i {
+  font-size: 40px;
+  color: #F1F1F1;
+}
+
+.programs h6 {
+  color: #ec5242;
+}
+
+.programs p {
+  color: #F1F1F1;
+}
+
+.programs-container {
+  padding: 0;
+}
+
+.speakers-container img {
+  width: 120px;
+  height: 120px;
+}
+
+.speaker-card {
+  display: flex;
+}
+
+.partners-container {
+  background: #3E3E3E;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#aws {
+  color: #ff9900;
+  font-size: 50px;
+}
+
+#youtube {
+  color: #FF0000;
+  font-size: 50px;
+}
+
+#facebook {
+  color: #4267B2;
+  font-size: 50px;
+}
+
+#firefox {
+  font-size: 50px;
+  color: #E66000;
+}
+
+#twitter {
+  color: #1DA1F2;
+  font-size: 50px;
+}
+
+.partners-1 {
+  margin-bottom: 40px;
+}
+
+ #cc {
+   font-size: 40px;
+   font-weight: bold;
+ }
+
+ .creative-commons {
+   gap: 5px;
+ }
+
+ .footer-container {
+   gap: 30px;
+   align-items: center;
+ }
+
+ /* about css */
+
+ #email {
+   font-weight: bold;
+   color: #272932;
+   text-decoration: underline;
+ }
+
+ #about-hero-desc {
+   background: #fff;
+   border: 1px solid #808080;
+ }
+
+ .dash {
+   color:rgba(219, 68, 55, 1);
+   width: 30px;
+   margin: 0 auto;
+   padding-bottom: 20px;
+ }
+
+ .about-logo-container {
+   border: 1px solid #272932;
+ }
+
+ .past-google-ios {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+
+ .past-conferences {
+   margin-bottom: 30px;
+ }
+
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 760px) {
   .black-prenav {
@@ -194,15 +326,15 @@ body {
   .nav {
     position: absolute;
     right: 100px;
+    top: -30px;
   }
 
   .logo {
-    margin-left: 150px;
+    margin-left: 100px;
   }
 
     .black-prenav {
       height: 35px;
-      background: #F4B400;
       gap: 20px;
       padding-right: 118px;
     }
@@ -210,11 +342,53 @@ body {
     .nav-container {
       flex-direction: row;
       align-items: center;
+      padding: 0;
+      background: white;
     }
 
     #navbarNav {
       position: absolute;
       top: 30px !important;
+    }
+
+    .hero-section {
+      max-width: 800px;
+    }
+
+    .navbar {
+      padding-top: 0 !important;
+    }
+
+    .programs {
+      margin-left: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+    }
+
+    .main-program-container {
+      padding-bottom: 30px;
+      padding-top: 30px;
+    }
+
+    .main-program-container button {
+      display: none;
+    }
+
+    body {
+      background: #F1F1F1;
+    }
+
+    #speakers {
+      padding-bottom: 30px;
+    }
+
+    .footer-container {
+      gap: 250px;
+      margin-left: 50px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      align-items: center;
     }
 }
 

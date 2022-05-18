@@ -1,4 +1,4 @@
-const getProjectListParentDiv = document.getElementById('speakers');
+/* const getProjectListParentDiv = document.getElementById('');
 const projectList = [
   {
     name: 'Sundar Pichai',
@@ -76,3 +76,62 @@ for (let index = 0; index < projectList.length; index += 1) {
   getProjectListParentDiv.append(mainDiv);
   getProjectListParentDiv.append(speakerCard);
 }
+ */
+
+const template = `
+  <h1 class="text-center mb-5 mt-3">Featured Speakers</h1>
+    <div class="container speakers-container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 speaker-card">
+          <img src="/assets/images/sundar.jpeg" class="img-fluid" alt="sundar pichai">
+          <div class="container speaker-decription">
+            <h2>Sundar Pichai</h2>
+            <h6>CEO of google & alpahbet</h6>
+            <p>joined google in 2012 after larry left ..</p>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 speaker-card">
+          <img src="/assets/images/sundar.jpeg" class="img-fluid" alt="sundar pichai">
+          <div class="container speaker-decription">
+            <h2>Sundar Pichai</h2>
+            <h6>CEO of google & alpahbet</h6>
+            <p>joined google in 2012 after larry left ..</p>
+          </div>>
+        </div>
+        <div class="col-md-12 col-lg-6 speaker-card">
+          <img src="/assets/images/sundar.jpeg" class="img-fluid" alt="sundar pichai">
+          <div class="container speaker-decription">
+            <h2>Sundar Pichai</h2>
+            <h6>CEO of google & alpahbet</h6>
+            <p>joined google in 2012 after larry left ..</p>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 speaker-card">
+          <img src="/assets/images/sundar.jpeg" class="img-fluid" alt="sundar pichai">
+          <div class="container speaker-decription">
+            <h2>Sundar Pichai</h2>
+            <h6>CEO of google & alpahbet</h6>
+            <p>joined google in 2012 after larry left ..</p>
+          </div>>
+        </div>
+        <div class="col-md-12 col-lg-6 speaker-card">
+          <img src="/assets/images/sundar.jpeg" class="img-fluid" alt="sundar pichai">
+          <div class="container speaker-decription">
+            <h2>Sundar Pichai</h2>
+            <h6>CEO of google & alpahbet</h6>
+            <p>joined google in 2012 after larry left ..</p>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 speaker-card">
+          <img src="/assets/images/sundar.jpeg" class="img-fluid" alt="sundar pichai">
+          <div class="container speaker-decription">
+            <h2>Sundar Pichai</h2>
+            <h6>CEO of google & alpahbet</h6>
+            <p>joined google in 2012 after larry left ..</p>
+          </div>>
+        </div>
+      </div>
+    </div>
+`;
+
+document.getElementById('speakers').innerHTML = template;

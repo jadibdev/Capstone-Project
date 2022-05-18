@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="css/main.css" rel="stylesheet">
+  <title>About</title>
+</head>
+<body>
+  <!-- top black pre-nav (not diplayed on desktop)-->
+  <div class="container-fluid black-prenav d-flex justify-content-end align-items-center">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <!-- <p>English</p> -->
+    <p>My I/O</p>
+    <p>Log Out</p>
+  </div>
+  
+  <div class="container-fluid nav-section">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand logo" href="#">Google <span class="io">I/O</span></a>
+        <button class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Program</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Speakers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <section class="container-fluid hero-section">
+    <h6 class="container">Hi! Google fans and welcome to</h6>
+    <h1 class="container">Google I/O Conference 2022</h1>
+    <div class="container" id="about-hero-desc">
+      <p>
+        Google I/O (or simply I/O) is an annual developer conference held by Google in Mountain View, California. "I/O" stands
+        for Input/Output, as well as the slogan "Innovation in the Open".s The event's format is similar to Google Developer
+        Day.
+      </p>
+    </div>
+    <p class="container text-center mb-0">Please contact us for any quesions, suggestions or concerns.</p>
+    <p class="container text-center" id="email">google@gmail.com</p>
+  </section>
+
+  <section class="container-fluid mb-5">
+    <h1 class="container text-center mt-4">Google I/O global conference 2022</h1>
+    <p class="text-center dash">____<p>
+    <div class="container about-logo-container">
+      <img class="img-fluid google-io-logo mt-3" src="assets/images/google-io.jpeg" alt="google i/o logo"/>
+    </div>
+  </section>
+
+  <hr />
+  <section class="container-fluid past-conferences">
+    <h1 class="container text-center mt-4">See the past Google I/O conferences</h1>
+    <p class="text-center dash">____<p>
+    <p>
+      Take a look at the last Google I/O conferences that took place in Moutain view 
+      and San Francisco.
+    </p>
+    <div class="container past-google-ios">
+      <img src="assets/images/google-io-2021.jpg" class="img-fluid"/>
+      <img src="assets/images/google-io-2020.jpeg" class="img-fluid">
+    </div>
+  </section>
+
+  <!--  partner section -->
+  <div class="container-fluid partners-container">
+    <h1 class="text-center mb-4">Partners</h1>
+    <div class="container d-flex justify-content-around partners-1">
+      <i class="fa-brands fa-aws" id="aws"></i>
+      <i class="fa-brands fa-youtube" id="youtube"></i>
+      <i class="fa-brands fa-facebook" id="facebook"></i>
+    </div>
+    <div class="container d-flex justify-content-around partners-2">
+      <i class="fa-brands fa-twitter" id="twitter"></i>
+      <i class="fa-brands fa-firefox" id="firefox"></i>
+    </div>
+  </div>
+  <!-- footer section -->
+  <div class="container-fluid d-flex footer-container mt-3 mb-3">
+    <div class="creative-commons d-flex align-items-center">
+      <i class="fa-brands fa-creative-commons" id="cc"></i>
+      <h4>Creative Commons</h4>
+    </div>
+    <div>
+      <p>2022 Google I/O Conference, all rights reserved.</p>
+    </div>
+  </div>s
+  <!-- Dynamic js for speakers -->
+  <script src="/javascript/main.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -14,9 +14,11 @@
   <link href="css/main.css" rel="stylesheet">
 
   <title>Google I/O</title>
+  
 </head>
 
 <body>
+  
   <!-- top black pre-nav (not diplayed on desktop)-->
   <div class="container-fluid black-prenav d-flex justify-content-end align-items-center">
     <i class="fa-brands fa-facebook-f"></i>
@@ -40,7 +42,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" >Program</a>
@@ -56,93 +58,112 @@
 
   <!-- hero section -->
   <section class="container-fluid hero-section">
-    <h6>Hi! Google fans and welcome to</h6>
-    <h1>Google I/O 2022</h1>
-    <p>
-      Connect with developers from around the world for thoughtful discussions, 
-      learn from Google experts, and get a first
-      look at our latest developer products.
-    </p>
-    <h5>Date:</h5><p>May 11 - May 12</p>
-    <h5>Current Location:</h5><p>Online</p>
-    <h5>Previous Location:</h5>
-    <p>San Francisco</p>
+    <h6 class="container">Hi! Google fans and welcome to</h6>
+    <h1 class="container">Google I/O Conference 2022</h1>
+    <div class="container">
+      <p>
+        Connect with developers from around the world for thoughtful discussions,
+        learn from Google experts, and get a first
+        look at our latest developer products.
+      </p>
+    </div>
+    <h2 class="container">2022.05.11(WED) ~ 12(THUR)</h2>
+    <p class="container">@2000 N Shoreline Blvd Mountain View, CA 94043</p>
   </section>
   <!-- main program section -->
   <section class="container-fluid main-program-container">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-lg-4">
+        <div class="col-md-6 col-lg-4 programs-container">
           <div class="programs d-flex flex-md-column mt-3">
-            <p>icon</p>
-            <p>Keynote I/O</p>
+            <i class="fa-solid fa-person-chalkboard"></i>
+            <h6>Keynote I/O</h6>
             <p>
               Tune in to find out how
               we're furthering our mission
             </p>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4">
+        <div class="col-md-6 col-lg-4 programs-container">
           <div class="programs d-flex flex-md-column mt-3">
-            <p>icon</p>
-            <p>Keynote I/O</p>
+            <i class="fa-brands fa-android"></i>
+            <h6>Android development</h6>
             <p>
-              Tune in to find out how
-              we're furthering our mission
+              Hear the latest news on everything happening in the
             </p>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4">
+        <div class="col-md-6 col-lg-4 programs-container">
           <div class="programs d-flex flex-md-column mt-3">
-            <p>icon</p>
-            <p>Keynote I/O</p>
+            <i class="fa-solid fa-cloud"></i>
+            <h6>Google Cloud</h6>
             <p>
-              Tune in to find out how
-              we're furthering our mission
+              Learn how Google Cloud and Workspace teams are
             </p>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4">
+        <div class="col-md-6 col-lg-4 programs-container">
           <div class="programs d-flex flex-md-column mt-3">
-            <p>icon</p>
-            <p>Keynote I/O</p>
+            <i class="fa-solid fa-fire"></i>
+            <h6>Google Firebase</h6>
             <p>
-              Tune in to find out how
-              we're furthering our mission
+              Learn how to build and run apps users love with Firebase
             </p>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4">
+        <div class="col-md-6 col-lg-4 programs-container">
           <div class="programs d-flex flex-md-column mt-3">
-            <p>icon</p>
-            <p>Keynote I/O</p>
+            <i class="fa-solid fa-brain"></i>
+            <h6>AI</h6>
             <p>
-              Tune in to find out how
-              we're furthering our mission
+              Learn what Google is doing in the AI and machine learning space
             </p>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4">
+        <div class="col-md-6 col-lg-4 programs-container">
           <div class="programs d-flex flex-md-column mt-3">
-            <p>icon</p>
-            <p>Keynote I/O</p>
+            <i class="fa-solid fa-vr-cardboard"></i>
+            <h6>AR</h6>
             <p>
-              Tune in to find out how
-              we're furthering our mission
+              Get the latest on our AR developer tools, including the new ARCore
             </p>
           </div>
         </div>
       </div>
+      <button type="button" class="btn btn-outline btn-lg">Join Google I/O conference 2022</button>
     </div>
   </section>
   <!-- Featured speakers section -->
-  <section id="speakers"></section>
-  <!-- partner section -->
-  
-  <!-- footer section -->
+  <section id="speakers" class="container-fluid">
+    
+  </section>
+  <!--  partner section -->
+   <div class="container-fluid partners-container">
+    <h1 class="text-center mb-4">Partners</h1>
+    <div class="container d-flex justify-content-around partners-1">
+      <i class="fa-brands fa-aws" id="aws"></i>
+      <i class="fa-brands fa-youtube" id="youtube"></i>
+      <i class="fa-brands fa-facebook" id="facebook"></i>
+    </div>
+    <div class="container d-flex justify-content-around partners-2">
+      <i class="fa-brands fa-twitter" id="twitter"></i>
+      <i class="fa-brands fa-firefox" id="firefox"></i>
+    </div>
+  </div> 
+  <!-- footer section --> 
+  <div class="container-fluid d-flex footer-container mt-3 mb-3">
+    <div class="creative-commons d-flex align-items-center">
+      <i class="fa-brands fa-creative-commons" id="cc"></i>
+      <h4>Creative Commons</h4>
+    </div>
+    <div>
+      <p>2022 Google I/O Conference, all rights reserved.</p>
+    </div>
+  </div>
 
-  <!-- Dynamic js for speakers -->
   <script src="/javascript/main.js"></script>
+  <!-- Dynamic js for speakers -->
+  
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
