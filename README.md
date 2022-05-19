@@ -4,6 +4,8 @@ This is a capstone project from my week 5 at Microverse, it is a website for Goo
 
 [Live link](https://jadibdev.github.io/)
 
+[Video Demo](https://www.loom.com/share/f237c657a5674991aa6d3d8c31ad9887)
+
 ## Built With
 
 - HTML
