@@ -2,6 +2,8 @@
 
 This is a capstone project from my week 5 at Microverse, it is a website for Google I/O conference 2022, it features a dropdwon mobile menu, a hero section, a programs section, speakers section and a partners section. I have provided a live link below, looking forward to your feedback :-)
 
+[Live link](https://jadibdev.github.io/)
+
 ## Built With
 
 - HTML
@@ -24,17 +26,9 @@ Run the index.html file in your favorite browser
 
 👤 **Mohamed Jadib**
 
-- Portfolio: [@MJ](https://jadibdev.github.io/)
 - GitHub: [@jadibdev](https://github.com/jadibdev)
 - Twitter: [@MohamedJadib](https://twitter.com/MohamedJadib)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-jadib-942a5041/)
-
-👤 **Ritobroto Mukherjee**
-
-- Portfolio: [@Rito](https://ritobrotomukherjee.github.io/Work-Portfolio/)
-- GitHub: [@RitobrotoMukherjee](https://github.com/RitobrotoMukherjee)
-- Twitter: [@RitobrotoM3](https://twitter.com/RitobrotoM3)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ritobroto-mukherjee-519148ba/)
 
 ## Show your support
 
