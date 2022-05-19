@@ -52,4 +52,3 @@ function showSpeakers() {
 window.onload = () => {
   showSpeakers();
 };
-
