@@ -409,10 +409,19 @@ body {
   }
 
   .footer-container {
-    gap: 250px;
+    gap: 150px;
     margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-    align-items: center;
+    width: auto;
+  }
+
+  .past-google-ios {
+    flex-direction: row;
+  }
+
+  #sundar-io {
+    height: 100%;
   }
 }
+
