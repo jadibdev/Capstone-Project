@@ -314,7 +314,7 @@ body {
 }
 
 .past-google-ios-img {
-  background: #90230F;
+  background: #90230f;
 }
 
 .past-google-ios img {
@@ -438,17 +438,5 @@ body {
     flex-direction: row;
     max-width: 650px;
     gap: 10px;
-  }
-
-    /* .text-overlay {
-      position: relative;
-      top: 50px;
-      left: 200px;
-      color: #fff;
-      font-size: 18px;
-    } */
-
-  #sundar-io {
-    
   }
 }
