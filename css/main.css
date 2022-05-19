@@ -1,0 +1,442 @@
+/*
+  Google color palette
+  blue: #4285F4
+  green: #0F9D58
+  yellow: #F4B400
+  red: #DB4437
+
+  raison black: #272932
+  onyx: #3C3F46
+*/
+
+/* beginning of X butoon css */
+
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  position: relative;
+}
+
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: rgba(219, 68, 55, 1);
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.middle-bar {
+  margin-top: 0;
+}
+
+/* State when the navbar is collapsed */
+
+.navbar-toggler .bottom-bar {
+  top: inherit;
+  transform: rotate(-135deg);
+}
+
+.navbar-toggler .middle-bar {
+  top: inherit;
+}
+
+.navbar-toggler .top-bar {
+  top: inherit;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler.collapsed .top-bar {
+  position: absolute;
+  top: 0;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  position: absolute;
+  top: 20px;
+  transform: rotate(0deg);
+}
+
+/* when navigation is clicked */
+.navbar-toggler.collapsed .toggler-icon {
+  background: #272a31;
+}
+
+body {
+  font-family: lato, sans-serif;
+  color: #808080;
+}
+
+.logo {
+  font-size: 22px;
+  color: #db4437;
+}
+
+.black-prenav {
+  background: #3e3e3e;
+}
+
+.black-prenav i {
+  color: #f1f1f1;
+}
+
+.black-prenav p {
+  color: #f1f1f1;
+  margin: 0;
+}
+
+.nav-container {
+  flex-direction: row-reverse;
+}
+
+.nav-section {
+  padding: 0;
+  background: #f1f1f1;
+}
+
+#navbarNav {
+  position: absolute;
+  top: 50px;
+  background: #f1f1f1;
+  width: 100%;
+  left: 0;
+}
+
+.nav li {
+  padding-left: 8px;
+}
+
+.hero-section {
+  /* background:rgba(15, 157, 88, 1); */
+  padding-top: 30px;
+  padding-left: 20px;
+  background: #f1f1f1;
+  padding-bottom: 20px;
+}
+
+.hero-background {
+  background-image: url("/assets/images/desktop-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section h1 {
+  font-size: 42px;
+  color: #ec5242;
+}
+
+.hero-section h6 {
+  font-size: 16px;
+  color: #ec5242;
+}
+
+.hero-section p {
+  padding: 5px;
+}
+
+.hero-section h2 {
+  color: #272a31;
+  font-weight: bold;
+}
+
+#date {
+  margin-bottom: 40px;
+  background: red;
+}
+
+.main-program-container {
+  background: #272932;
+  color: #fff;
+}
+
+.main-program-container h1 {
+  color: #808080;
+}
+
+.main-program-container button {
+  background: #ec5242;
+  color: #f1f1f1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.programs {
+  background: #3c3f46;
+  gap: 10px;
+  align-items: center;
+}
+
+.programs i {
+  font-size: 40px;
+  color: #f1f1f1;
+}
+
+.programs h6 {
+  color: #ec5242;
+}
+
+.programs p {
+  color: #f1f1f1;
+}
+
+.programs-container {
+  padding: 0;
+}
+
+.speakers-container img {
+  width: 120px;
+  height: 120px;
+}
+
+.speaker-card {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.speaker-card img {
+  border-radius: 100%;
+}
+
+.partners-container {
+  background: #3e3e3e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+#aws {
+  color: #f90;
+  font-size: 50px;
+}
+
+#youtube {
+  color: #f00;
+  font-size: 50px;
+}
+
+#facebook {
+  color: #4267b2;
+  font-size: 50px;
+}
+
+#firefox {
+  font-size: 50px;
+  color: #e66000;
+}
+
+#twitter {
+  color: #1da1f2;
+  font-size: 50px;
+}
+
+.partners-1 {
+  margin-bottom: 40px;
+}
+
+#cc {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.creative-commons {
+  gap: 5px;
+}
+
+.footer-container {
+  gap: 30px;
+  align-items: center;
+}
+
+/* about css */
+
+#email {
+  font-weight: bold;
+  color: #272932;
+  text-decoration: underline;
+}
+
+#about-hero-desc {
+  background: #fff;
+  border: 1px solid #808080;
+}
+
+.about-background {
+  background-image: url("/assets/images/desktop-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dash {
+  color: rgba(219, 68, 55, 1);
+  width: 30px;
+  margin: -15px auto 0 auto;
+  padding-bottom: 20px;
+}
+
+.past-google-ios {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.past-conferences {
+  margin-bottom: 30px;
+}
+
+.past-google-ios-img {
+  background: #90230f;
+}
+
+.past-google-ios img {
+  opacity: 0.4;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: relative;
+  top: 130px;
+  left: 20px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 760px) {
+  .black-prenav {
+    height: 0;
+    position: absolute;
+    top: -20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 760px) {
+  .nav {
+    position: absolute;
+    right: 100px;
+    top: -30px;
+  }
+
+  .logo {
+    margin-left: 100px;
+  }
+
+  .black-prenav {
+    height: 35px;
+    gap: 20px;
+    padding-right: 118px;
+  }
+
+  .nav-container {
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    background: white;
+  }
+
+  #navbarNav {
+    position: absolute;
+    top: 30px !important;
+  }
+
+  .hero-section div {
+    margin-left: 75px;
+    width: 550px;
+  }
+
+  .about-hero-section div {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .about-hero-section div p {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .google-io-logo {
+    margin: 0 auto;
+  }
+
+  .about-global-io {
+    background: #fff;
+  }
+
+  .about-global-io h1 {
+    padding-top: 40px;
+  }
+
+  .navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0;
+  }
+
+  .programs {
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+
+  .main-program-container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .main-program-container button {
+    display: none;
+  }
+
+  body {
+    background: #f1f1f1;
+  }
+
+  #speakers {
+    padding-bottom: 30px;
+  }
+
+  .footer-container {
+    gap: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+  }
+
+  .past-google-ios {
+    flex-direction: row;
+    max-width: 650px;
+    gap: 10px;
+  }
+}
