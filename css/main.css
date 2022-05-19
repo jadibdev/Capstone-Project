@@ -85,20 +85,9 @@
 }
 
 /* when navigation is clicked */
-
-
-
-
-
-
-
-/* Color of 3 lines */
-
 .navbar-toggler.collapsed .toggler-icon {
   background: #272a31;
 }
-
-/* end of X butoon css */
 
 body {
   font-family: lato, sans-serif;
