@@ -230,6 +230,7 @@ body {
   background: #3e3e3e;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-top: 50px;
 }
 
 #aws {
@@ -310,6 +311,23 @@ body {
 
 .past-conferences {
   margin-bottom: 30px;
+}
+
+.past-google-ios-img {
+  background: #90230F;
+}
+
+.past-google-ios img {
+  opacity: 0.4;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: relative;
+  top: 130px;
+  left: 20px;
+  color: #fff;
+  font-size: 18px;
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -418,9 +436,19 @@ body {
 
   .past-google-ios {
     flex-direction: row;
+    max-width: 650px;
+    gap: 10px;
   }
 
+    /* .text-overlay {
+      position: relative;
+      top: 50px;
+      left: 200px;
+      color: #fff;
+      font-size: 18px;
+    } */
+
   #sundar-io {
-    height: 100%;
+    
   }
 }
